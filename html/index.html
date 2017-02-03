@@ -1,0 +1,35 @@
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Pacifico|Dosis|Lora|Lobster+Two|Hind" rel="stylesheet">
+</head>
+
+<h1 id="title">Movie Survey Form</h1>
+<p id="description">Share your movie's taste with us</p>
+
+<form>
+  <label id="name-label">Name:</label>
+  <input id="name" type="text" required placeholder="Enter your name" /></br>
+  <label id="email-label">Email:</label>
+  <input id="email" type="email" required placeholder="Enter your email" /></br>
+  <label id="number-label">Age:</label>
+  <input id="number" type="number" min="0" max="200" required placeholder="Enter your age" /></br>
+  <label id="current-position">What do you do?</label>
+  <select id="position">
+    <option value="student">Student</option>
+    <option value="worker">Worker</option>
+    <option value="retired">Retired</option>
+  </select></br>
+  <label id="number-movies">Number of movies watched per month:</label></br>
+  <input type="radio" /><span>0-1</span></br>
+  <input type="radio" /><span>2-4</span></br>
+  <input type="radio" /><span>More then 10</span></br>
+  <label id="movie-genre">What genre do you prefer?</label></br>
+  <input type="checkbox" /><span>Action</span></br>
+  <input type="checkbox" /><span>Adventure</span></br>
+  <input type="checkbox" /><span>Comedy</span></br>
+  <input type="checkbox" /><span>Drama</span></br>
+  <input type="checkbox" /><span>Horror</span></br>
+  <input type="checkbox" /><span>Romance</span></br>
+  <input type="checkbox" /><span>Suspense</span></br>
+  <textarea placeholder="Which movies do you like?" rows="5" cols="50"></textarea>
+  <button>Submit</button>
+</form>
